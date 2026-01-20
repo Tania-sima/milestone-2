@@ -1,42 +1,46 @@
+*{
+  margin:0; box-sizing: border-box;
+}
+
+
 body{ border:2px solid red; margin:0 auto;   color:white; }
 /*header */
-header{ border:2px solid green;  padding:0px 200px 0px 200px; height:92px;  display: flex; align-items:center; justify-content:  space-between; background-color: rgba(26, 11, 46, 1); }
+header{padding:0px 200px 0px 200px; height:92px;  display: flex; align-items:center; justify-content:  space-between; background-color: rgba(26, 11, 46, 1); }
 .wave-color{color:transparent;  background: linear-gradient(rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1) ); -webkit-background-clip: text;}
 header nav li{list-style: none; display: inline; margin-right: 32px;}
 header nav li a{text-decoration: none; color:white; }
 header button{ background: linear-gradient(rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)); border-radius: 20px;padding: 12px; width:140px; color:white;} 
 .hamburger{display:none;}
 /*banner*/
-.banner-section{ border:2px solid blue;  background-image: url(assets/hero-bg.png);  background-position:center; padding:30px 5px 30px 5px;  }
+.banner-section{ background-image: url(assets/hero-bg.png);  background-position:center; padding:30px 5px 30px 5px;  }
 .microphone img{width:200px; height:200px;  margin:75px  }
 .badge {background-color: #00FF88; position: absolute; top: 33%; left:58%; padding: 6px 15px 6px 15px;  border-radius: 20px; color: black; box-shadow: 0px 3px 15px 2px #00FF88;}
-.microphone{ background-image: url(assets/hero-circle.png); width:350px; height:350px; margin:0 auto; border:2px solid skyblue; }
-.about-microphone{text-align: center;}
-#microphone{display: flex; justify-content: center; gap:7px; }
+.microphone{ background-image: url(assets/hero-circle.png); width:350px; height:350px; margin:0 auto;  }
+.about-microphone{text-align: center; margin-top: 20px;}
+#microphone{display: flex; justify-content: center; gap:7px; margin-top: 40px; }
 #microphone button{border-radius: 20px; padding: 7px 15px 7px 15px;}
 .spotify{ background: linear-gradient(rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)); display: flex; gap:5px; color:white;}
 .subscribe{display: flex; gap:5px; color:#00FF88;  background-color: rgb(4, 4, 47); border-color: #00FF88;}
+/*about-section*/
+.about-section{background-color: rgba(26, 11, 46, 1);  padding: 50px 200px 120px 200px;}
+#about{max-height:223px; text-align: center;   max-width:600px; margin:0 auto; margin-bottom: 100px;  }
+.hr{border:1px solid rgba(245, 245, 245, 0.094); margin-bottom: 50px;}
+#item{display: flex;  gap:80px; max-width:800px;margin:0 auto; }  
+.item{width:250px; height:100px;  color:#00FF88; }
+.item p{color:white; font-size: small;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*choose section*/
+.choose-section{background-color: rgba(35, 14, 61, 1);  }
+.choose-section h1{text-align: center;  padding:50px;}
+.mobile-global{display: flex; flex-direction: column;  gap:16px;}
+.premium{display: flex;  gap:16px; }
+.exclusive-rich{display:flex; gap:16px; }
+.exclusive-rich div{ background-color:  rgba(53, 17, 101, 0.4); }
+.choose{display: flex; flex-direction: column;  padding: 10px 200px 120px 200px;gap:16px;  }
+.mobile-global div{max-width:500px; background-color:  rgba(53, 17, 101, 0.4); height:150px; padding:20px;}
+#premium{max-width:380px;  background-color:  rgba(53, 17, 101, 0.4); padding-top: 150px;  padding:50px; height: 300px;}
+#exclusive{max-width:790px; padding: 20px;}
+#rich{max-width:380px; height:200px; padding: 20px;}
 
 
 
@@ -44,7 +48,7 @@ header button{ background: linear-gradient(rgba(247, 233, 63, 1),rgba(251, 9, 18
 /*header*/
   header nav, button{display:none;}
 .hamburger{display: block;}
-header{display:flex;  border:2px solid white;  padding: 3px 20px 5px 20px;}
+header{display:flex;  padding: 3px 20px 5px 20px;}
 .hamburger:hover nav{display:block;}
 .hamburger:hover nav ul{ display: flex; flex-direction: column; }
 .hamburger:hover img{display: none;}
@@ -53,6 +57,22 @@ header{display:flex;  border:2px solid white;  padding: 3px 20px 5px 20px;}
 .microphone{ width:200px; height:200px; margin: 0 auto; background-size: cover;}
  .badge{padding:3px 10px 3px 10px; top:26%}
 .banner-section{ padding:20px 5px 20px 5px; background-size: cover; }
+
+/*about-section*/
+.about-section{padding: 60px 100px 60px 100px; }
+#about{width:100% ; }
+#item{ width:100%; gap:50px;  display: grid; grid-template-columns: repeat(2,1fr);}
+.item{width:100%;}
+
+/*choose section*/
+.choose{padding:20px ;}
+.premium, .exclusive-rich{flex-direction: column;}
+.mobile-global div, #premium, #rich, #exclusive{max-width: 100%; height: auto; padding:20px;}
+
+
+
+
+
 
 
 
