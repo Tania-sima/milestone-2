@@ -13,7 +13,7 @@ header nav li{list-style: none; display: inline; margin-right: 32px;}
 header nav li a{text-decoration: none; color:white; }
 header button{ background: linear-gradient(rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)); border-radius: 20px;padding: 12px; width:140px; color:white;} 
 .hamburger{display:none;}
-.header-close{border:1px solid rgba(245, 245, 245, 0.094);}
+.header-close{border:1px solid rgba(245, 245, 245, 0.094)! important;}
 /*banner*/
 .banner-section{ background-image: url(assets/hero-bg.png);  background-position:center; padding:30px 5px 30px 5px;  }
 .microphone img{width:200px; height:200px;  margin:75px  }
