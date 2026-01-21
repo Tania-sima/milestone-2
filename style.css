@@ -101,9 +101,9 @@ header{display:flex;  padding: 3px 20px 5px 20px;}
 
 /*about-section*/
 .about-section{padding: 60px 100px 60px 100px; }
-#about{width:100% ; }
-#about h1{width:max-content;}
-#item{ width:100%; gap:50px;  display: grid; grid-template-columns: repeat(2,1fr);}
+#about{width:fit-content; top:5%; }
+
+#item{ width:100%; gap:50px;  display: grid; grid-template-columns: repeat(2,1fr); justify-content: center; align-items: center; padding-top: 70px;}
 .item{width:100%;}
 
 
