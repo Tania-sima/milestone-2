@@ -95,13 +95,14 @@ header{display:flex;  padding: 3px 20px 5px 20px;}
 /*banner*/
 .microphone img{width:80px; height:80px; margin:60px;}
 .microphone{ width:200px; height:200px; margin: 0 auto; background-size: cover;}
- .badge{padding:3px 10px 3px 10px; top:26%}
+ .badge{padding:3px 10px 3px 10px; top:16%}
 .banner-section{ padding:20px 5px 20px 5px; background-size: cover; }
 
 
 /*about-section*/
 .about-section{padding: 60px 100px 60px 100px; }
 #about{width:100% ; }
+#about h1{width:max-content;}
 #item{ width:100%; gap:50px;  display: grid; grid-template-columns: repeat(2,1fr);}
 .item{width:100%;}
 
@@ -113,14 +114,14 @@ header{display:flex;  padding: 3px 20px 5px 20px;}
 
 
 /*featured section */
-.feature{ padding:90px ; height:1400px; }
-.feature h1{padding:30px; }
-#card{flex-direction: column; gap:20px;max-width:fit-content;}
+.feature{ padding:50px ; height:1400px; }
+.feature h1{width: 100%; }
+#card{flex-direction: column; gap:20px; width:fit-content;}
 .card{ border-radius: 20px; }
 .details{margin:5px;}
 
 
-.host{padding: 90px; }
+.host{padding: 40px; }
 .alex{flex-direction: column; width:fit-content;   gap:1px; height:520px;}
 
 
